@@ -1,0 +1,158 @@
+body {
+
+	background-color: #FFFAFB;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+	font-family: 'Pacifico', sans-serif;
+	font-size: 85px;
+	text-align: center;
+	color: #A63A50;
+	letter-spacing: 2px;
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+/***************
+ 	*Links*
+ ***************/
+nav {
+	  font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    color: #CA7989;
+    text-transform: uppercase;
+    padding: 50px 0;
+    text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #CA7989;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #A63A50;
+    background: #F5E6E6;
+
+}
+nav a:visited {
+	text-decoration: none;
+	color:#A63A50;
+}
+nav a:link{
+	text-decoration: none;
+	color:#A63A50;
+}
+.skills {
+	padding: 0 30px;
+}
+
+/**********************
+ 	*main content*
+ **********************/
+.main-content {
+	font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    color: #CA7989;
+    padding: 40px 0 0 0;
+    line-height: 35px;
+    max-width: 100%;
+    
+}
+
+.my_picture {
+	margin: 16px 0;
+	border-radius: 50%;
+    border: 1px solid #CA7989;
+}
+
+.social-links {
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+
+}
+
+.fb , .github {
+	padding: 0 20px 0 0;
+}
+
+/*.line {
+    max-width: 500px;
+    margin: 0 auto;
+    border-top: 1px solid #CA7989;
+    position: fixed;
+
+}
+
+/**********************
+ 	*Skills*
+ **********************/
+
+.second-content {
+    background: #FDFFFC;
+    height: 100%;
+    padding: 0 0 20px 0;
+    margin: 20px 0;
+}
+
+.space-down {
+  padding: 90px 0 0 0;
+}
+.setwidth{
+	max-width: 220px;
+	margin: 0 auto;
+}
+.skills-content {
+	padding-bottom: 60px;
+	text-transform: uppercase;
+}
+
+/**********************
+ 	*Projects*
+ **********************/
+
+.third-content {
+  background: #E4FDE1;
+  height: 100%;
+}
+
+/**********************
+ 	*Footer*
+ **********************/
+footer {
+  font-size: 20px;
+  height: 150px;
+  font-family: 'Pacifico';
+  padding: 30px 0 0 0;
+}
+ footer span {
+   color: #EE4266;
+   font-size: 22px;
+ }
+
+ /**********************
+  *Media Queries*
+ **********************/
+
+ @media only screen and (max-width: 400px) {
+  nav li {
+    display: block;
+  }
+
+  nav .skills {
+    padding: 10px 0;
+  }
+ }
+
+ @media only screen and (max-width: 760px) {
+  .lessthan780 {
+    padding: 90px 0 0 0;
+  }
+  
+ }
+
